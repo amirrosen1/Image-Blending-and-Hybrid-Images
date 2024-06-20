@@ -1,0 +1,42 @@
+# Image Blending and Hybrid Images
+
+## Overview
+
+This project showcases sophisticated image processing techniques to create visually seamless blended images and hybrid
+ images that reveal different details at varying distances. By leveraging Gaussian and Laplacian pyramids, the project
+  achieves smooth transitions and frequency-based image integration.
+
+## Features
+
+- **Image Blending**: Seamlessly blends two images using a mask and multi-level pyramidal techniques.
+- **Hybrid Images**: Creates images that display different visuals depending on the viewing distance by merging
+ high-frequency and low-frequency components from two images.
+
+## Prerequisites
+
+- **Python 3.x**
+- **OpenCV 4.9.0.80**
+- **NumPy 1.26.4**
+
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/username/image-processing-project.git
+
+
+## How to Use
+Image Blending
+1.Ensure you have three images: two to blend and one mask.
+
+2.Replace the paths in ex3.py with your own images for first_image_for_blending, second_image_for_blending, and mask.
+
+3.Run the script to generate the blended image.
+
+Creating Hybrid Images
+1.Make sure you have two images to merge into a hybrid.
+
+2.Update the paths in ex3.py for first_image_for_hybrid and second_image_for_hybrid.
+
+3.Execute the script to create the hybrid image.
